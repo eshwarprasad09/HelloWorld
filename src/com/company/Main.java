@@ -29,8 +29,8 @@ public class Main {
 //        point1.y = 2;
 //        System.out.println(point2);
 //        System.out.println(point1);
-//        String message = new String("              Hello world" + "!!            ");
-//        String message1 = "Hey World          ";
+        String message = new String("              Hello world" + "!!            ");
+//        String message1 = "Hey World    ";
 //        System.out.println(message);
 //        boolean a = message1.endsWith("d");
 //        int b = message1.length();
@@ -44,7 +44,7 @@ public class Main {
         //trim
 //        System.out.println(message.trim());
 //        System.out.println(message);
-//        //7.string escape character
+        //7.string escape character
 //        String sentence = "Hi I am working with \"java\"";
 //        System.out.println(sentence);
 //        String sentence1 = "Hi I am working with \\java\\";
@@ -438,7 +438,7 @@ public class Main {
 //        //11.Reducing coupling
 //        var browser = new Browser();
 //        browser.navigate("1234567890");
-        //Refactoring mortage calculator project
+//        Refactoring mortage calculator project
 //        final int PRINCIPAL_MIN = 1000;
 //        final int PRINCIPAL_MAX = 1_000_000;
 //
@@ -586,6 +586,15 @@ public class Main {
 //
 //    private static void greet(Printer message) {
 //        message.print("Hello World");
+        //constructors and method overloading
+//        User user = new User("Sukurthi", 100, "Bangalore");
+//        user.print();
+//        User user1 = new User("Sukuurthi", "Bangalore");
+//        user1.print();
+//        User user2 = new User();
+//        user2.print();
+//        user2.details("Sukurthi", 100, "Bangalore");
+//        user2.details();
     }
 
 }
